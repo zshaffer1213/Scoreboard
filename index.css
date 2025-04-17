@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background-color: #1B244A;
     color: white;
 }
@@ -13,7 +14,9 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    margin: 30px 50px 0;
+    margin: 0px 50px 0;
+    position: relative;
+    top: 25vh;
 }
 
 h3 {
@@ -24,15 +27,15 @@ h3 {
 
 .score {
     text-align: center;
-    min-width: 155px;
-    height: 120px;
+    min-width: 300px;
+    height: 220px;
     border-radius: 5px;
     background-color: #080001;
 }
 
 p {
-    font-size: 90px;
-    margin-top: 15px;
+    font-size: 150px;
+    margin-top: 45px;
     padding: 0;
     font-family: 'Cursed Timer ULiL', sans-serif;
     color: #F94F6D;
@@ -50,19 +53,20 @@ p {
 }
 
 .buttons {
-    margin-top: 15px;
+    margin-top: 25px;
     display: flex;
     gap: 10px;
 }
 
 button {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     border-radius: 5px;
     border: 2px solid #9AABD8;
     background-color: #1B244A;
     color: #9AABD8;
     font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 30px;
 }
 
 button:hover {
